@@ -70,6 +70,10 @@ export function PageClientImpl(props: {
             defaults={preJoinDefaults}
             onSubmit={handlePreJoinSubmit}
             onError={handlePreJoinError}
+            joinLabel="加入房间"
+            userLabel="请输入您的昵称"
+            micLabel="麦克风"
+            camLabel="摄像头"
           />
         </div>
       ) : (

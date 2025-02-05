@@ -40,8 +40,8 @@ export function PageClientImpl(props: {
   const preJoinDefaults = React.useMemo(() => {
     return {
       username: '',
-      videoEnabled: true,
-      audioEnabled: true,
+      videoEnabled: false,
+      audioEnabled: false,
     };
   }, []);
   const [connectionDetails, setConnectionDetails] = React.useState<ConnectionDetails | undefined>(
